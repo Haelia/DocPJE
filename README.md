@@ -41,3 +41,23 @@ ALL
 }
 
 ERGONOMIE
+
+
+
+
+Insérer bitmap dans DB
+http://www.tutorialforandroid.com/2009/10/how-to-insert-image-data-to-sqlite.html
+
+/**
+Bitmap to byte[]
+
+Bitmap bmp = intent.getExtras().get("data");
+ByteArrayOutputStream stream = new ByteArrayOutputStream();
+bmp.compress(Bitmap.CompressFormat.PNG, 100, stream);
+byte[] byteArray = stream.toByteArray();
+
+byte[] to bitmap
+ImageView myImage = (ImageView) findViewById(R.id.myImage);
+byte[] bb = cursor.getBlob(cursor.getColumnIndex(MyBaseColumn.MyTable.ImageField));
+myImage.setImageBitmap(BitmapFactory.decodeByteArray(bb, 0, bb.length));
+*/
