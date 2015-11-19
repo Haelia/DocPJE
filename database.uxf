@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="13.3">
-  <zoom_level>7</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>392</x>
-      <y>252</y>
-      <w>105</w>
-      <h>133</h>
+      <x>368</x>
+      <y>160</y>
+      <w>112</w>
+      <h>152</h>
     </coordinates>
     <panel_attributes>Books
 --
@@ -25,22 +25,22 @@ String summary</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>490</x>
-      <y>266</y>
-      <w>105</w>
-      <h>28</h>
+      <x>472</x>
+      <y>176</y>
+      <w>112</w>
+      <h>32</h>
     </coordinates>
     <panel_attributes>m1=1
 m2=1..n</panel_attributes>
-    <additional_attributes>10.0;10.0;130.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;120.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>581</x>
-      <y>252</y>
-      <w>70</w>
-      <h>49</h>
+      <x>568</x>
+      <y>160</y>
+      <w>80</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>BookAuthor
 --
@@ -51,10 +51,10 @@ int authorID</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>735</x>
-      <y>266</y>
-      <w>70</w>
-      <h>49</h>
+      <x>720</x>
+      <y>176</y>
+      <w>80</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>Authors
 --
@@ -65,24 +65,24 @@ String name</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>644</x>
-      <y>273</y>
-      <w>105</w>
-      <h>35</h>
+      <x>640</x>
+      <y>184</y>
+      <w>96</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=0..n
 m2=1
 </panel_attributes>
-    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>252</x>
-      <y>252</y>
-      <w>63</w>
-      <h>49</h>
+      <x>208</x>
+      <y>160</y>
+      <w>72</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>BookTag
 --
@@ -93,10 +93,10 @@ int tagID</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>308</x>
-      <y>259</y>
-      <w>98</w>
-      <h>35</h>
+      <x>272</x>
+      <y>168</y>
+      <w>112</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>m1=0..n
 m2=1
@@ -106,10 +106,10 @@ m2=1
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>91</x>
-      <y>252</y>
-      <w>91</w>
-      <h>49</h>
+      <x>24</x>
+      <y>160</y>
+      <w>104</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>Tags
 --
@@ -120,10 +120,10 @@ String tagName</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>175</x>
-      <y>273</y>
-      <w>91</w>
-      <h>35</h>
+      <x>120</x>
+      <y>184</y>
+      <w>104</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes>m1=1
 m2=0..n
