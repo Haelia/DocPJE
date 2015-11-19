@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>392</x>
+      <y>252</y>
+      <w>105</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Books
+--
+int id
+String title
+String series
+int numSeries
+String editor
+int year
+String isbn
+String cover
+String summary</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>266</y>
+      <w>105</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>m1=1
+m2=1..n</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>581</x>
+      <y>252</y>
+      <w>70</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>BookAuthor
+--
+int bookID
+int authorID</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>735</x>
+      <y>266</y>
+      <w>70</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>Authors
+--
+int id
+String name</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>644</x>
+      <y>273</y>
+      <w>105</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1
+</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>252</x>
+      <y>252</y>
+      <w>63</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>BookTag
+--
+int bookID
+int tagID</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>259</y>
+      <w>98</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>m1=0..n
+m2=1
+</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>91</x>
+      <y>252</y>
+      <w>91</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>Tags
+--
+int id
+String tagName</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>175</x>
+      <y>273</y>
+      <w>91</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>m1=1
+m2=0..n
+</panel_attributes>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+</diagram>
